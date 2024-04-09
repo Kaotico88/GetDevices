@@ -101,7 +101,7 @@ public class GeneralResource {
 				&& (identifier == null || identifier.trim().isEmpty())) {
 			throw new CustomRuntimeException(HttpStatus.BAD_REQUEST, 400, "Es requerido al menos un parametro.");
 		}
-//		Es importante el orden de los parametros desde el mybatis hasa la ultima capa que es esta
+
 		responseObj = service.getQueryRecords(ofNullable(sku), ofNullable(stockId), ofNullable(identifier),
 				sessionLogId);
 
