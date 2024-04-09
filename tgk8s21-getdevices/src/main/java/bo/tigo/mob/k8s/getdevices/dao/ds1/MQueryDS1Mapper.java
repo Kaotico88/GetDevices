@@ -21,6 +21,7 @@ import bo.tigo.mob.k8s.getdevices.util.exception.RepositoryException;
  *
  * @author Elio Arias
  * @since 1.0
+ * debes tener cuido en el oreden en el que solicitas los parametros se deben respetara hata la capara vista o resources
  */
 @Mapper
 public interface MQueryDS1Mapper {
